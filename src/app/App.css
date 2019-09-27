@@ -1,0 +1,60 @@
+:root{
+  --bg-color: linear-gradient(to right, #2b5876, #4e4376);;
+  --title-color: #FFF9;
+  --title-desc-color: #FFF5;
+  --desc-color: rgba(255,255,255);
+  --shadow: 0 2px 23px 0 rgba(0,0,0,0.1),
+            0 2px 49px 0 rgba(0,0,0,0.6);
+    
+  --bg-white: rgba(255, 0, 0, 0);
+  --white-bg-title: rgba(0,0,0,0.7);
+  --white-bg-title-desc: rgba(0,0,0,0.5);
+  --white-bg-desc: #000;
+  
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home{
+  margin: 0;
+  padding: 40px;   
+  background: var(--bg-color)
+}
+
+.content-color, .content-white{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px;
+}
+
+.content-white {
+  background-color: var(--bg-white);
+}
+
+.content-color{
+  background: var(--bg-color);
+  box-shadow: var(--shadow);
+}
+
+.fa-heart{
+  color: rgba(255, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 600px),(min-width: 600px) {
+  .content-color, .content-white {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content-color, .content-white {
+    flex-direction: row;
+  }
+}

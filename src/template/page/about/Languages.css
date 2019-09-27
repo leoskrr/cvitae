@@ -1,0 +1,72 @@
+/* 
+@keyframes movePt{
+    from{
+        opacity: 0;
+        width: 0;
+        font-size: 0;
+    }to{
+        opacity: 1;
+        width: 100%;
+        font-size: 1em;
+    }
+}
+@keyframes moveEn{
+    from{
+        opacity: 0;
+        width: 0;
+        font-size: 0em;
+    }to{
+        opacity: 1;
+        width: 85%;
+        font-size: 1em;
+    }
+}
+@keyframes moveIt{
+    from{
+        opacity: 0;
+        width: 0;
+        font-size: 0;
+    }to{
+        opacity: 1;
+        width: 30%;
+        font-size: 1em;
+    }
+} */
+.progress-bar, .portuguese, .english, .italian{
+    border-radius: 50px;
+}
+
+.progress-bar{
+    width: 400px;
+    background: #cecece;
+    text-align: center;
+}
+
+.progress-bar .portuguese{
+    background-color: #04B431;
+    width: 100%;
+    /* animation: movePt 1s; */
+}
+
+.progress-bar .english{
+    background-color: #01A9DB;
+    width: 85%;
+    animation: moveEn 1s;
+    /* animation-delay: 75ms;
+    animation-fill-mode: backwards; */
+}
+
+.progress-bar .italian{
+    background-color: #DF7401;
+    width: 30%;
+    animation: moveIt 1s;
+    /* animation-delay: 150ms;
+    animation-fill-mode: backwards; */
+
+}
+
+@media only screen and (max-width: 600px) {
+    .progress-bar{
+        width: 250px;
+    }    
+}

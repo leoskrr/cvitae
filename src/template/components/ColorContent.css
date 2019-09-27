@@ -1,0 +1,23 @@
+p{
+    line-height: 35px;
+}
+
+/* .content-title, .content-desc {
+    width: 50%;
+} */
+
+.content-color .content-title {
+    text-align: justify;
+}
+
+.content-color .content-title h1{
+    color: var(--title-color);
+}
+  
+.content-color .content-title p{
+    color: var(--title-desc-color);
+}
+  
+.content-color .content-desc p{
+    color: var(--desc-color);
+}

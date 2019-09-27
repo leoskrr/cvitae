@@ -1,0 +1,129 @@
+@keyframes moveLinks{
+    from{
+        transform: translateY(-5%);
+    }to{
+        transform: translateY(0);
+        color: #f9c6ba;
+    }
+}
+
+@keyframes moveInfo{
+    from{
+        transform: translateX(-30%);
+        opacity: 0;
+    }to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadePic{
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.home .info{
+    animation: moveInfo 1s;
+}
+
+.home .info h1,h4{
+    color: #FFF;
+}
+
+.home .info h4{
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+.home .info h1{
+    font-size: 2.5em;
+    border-bottom: 5px solid #00b09b;
+    border-bottom-width: 2px;
+    text-align: justify;
+}
+
+.home .info .job{
+    /* color: #f9c6ba; */
+    color: #00b09b;
+    font-weight: bold;
+}
+
+.home .info .desc{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.home .info .contact{
+    display: flex;
+    justify-content: center;
+}
+
+.home .info .button{
+    display: flex;
+    justify-content: center;
+}
+
+.home .info .button a{
+    color: #00b09b;
+    border: 2px solid #00b09b;
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.home .info .button a:hover{
+    color: #f9c6ba;
+    border: 2px solid #f9c6ba;
+}
+
+.home .info .contact a{
+    margin: 20px;
+    font-size: 1.5em;
+    color: #FFF;
+    transition: 1s all;
+}
+
+.home .info .contact a:hover{
+    animation: moveLinks 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.home .pic{
+    animation: fadePic 1s;
+}
+
+.home .pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .pic .img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-image: url('../../../img/picture.jpg');
+    background-size: 470px;
+}
+
+.home .pic .desc p{
+    color: #FFF2;
+    font-size: 0.8em;
+}
+

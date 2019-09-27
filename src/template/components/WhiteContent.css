@@ -1,0 +1,38 @@
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes move{
+    from{
+        opacity: 0;
+        transform: translateX(35%);
+    }to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.content-white .content-title {
+    text-align: justify;
+    animation: fade 1s;
+}
+
+.content-white .content-title h1{
+    color: var(--white-bg-title);
+}
+  
+.content-white .content-title p{
+    color: var(--white-bg-title-desc);
+}
+  
+.content-white .content-desc{
+    color: var(--white-bg-desc);
+    text-align: justify;
+    animation: move 1s;
+}
