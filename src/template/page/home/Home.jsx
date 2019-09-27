@@ -19,7 +19,7 @@ export default props => {
                 </p>
                 <div className="contact">
                     <a href=""><i className="fa fa-facebook-square"></i></a>
-                    <a href=""><i className="fa fa-github-square"></i></a>
+                    <a href="https://github.com/leoskrr" target="_blank"><i className="fa fa-github-square"></i></a>
                     <a href=""><i className="fa fa-instagram"></i></a>
                 </div>
                 <div className="button">
