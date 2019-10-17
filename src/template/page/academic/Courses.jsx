@@ -18,6 +18,7 @@ export default props =>
             C, GIT, Java Swing, Android com Java
             <br/>HTML, CSS, JavaScript, NodeJS 
             <br/>PHP, Laravel, ReactJS, ReactNative
+            <br/>MySQL, MongoDB, SQLite
             <br/>
             <i className="fa fa-heart"></i> &nbsp; <i className="fa fa-git"></i> &nbsp; <i className="fa fa-android"></i> &nbsp; <i className="fa fa-code"></i> &nbsp; 
             <i className="fa fa-heart"></i>
