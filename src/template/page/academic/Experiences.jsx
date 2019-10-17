@@ -44,4 +44,11 @@ export default props =>
                 <li><u>Data</u>: 30/08/2019</li>
             </ul>
         </p>
+        <p><b> <i className="fa fa-trophy"></i> Classificado: Fase Nacional da Olímpiada BR de Informática</b></p>
+        <p>
+            <ul>
+                <li>Fundação Matias Machline</li>
+                <li><u>Ano</u>:2019</li>
+            </ul>
+        </p>
     </ColorContent>
