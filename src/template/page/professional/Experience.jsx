@@ -6,7 +6,7 @@ export default props =>
         <p>
             <ul>
                 <li>Fundação Matias Machline e TCE</li>
-                <li><u>Função</u>: Programador auxiliar </li>
+                <li><u>Função</u>: Líder da equipe de back-end<br/>do projeto Secex-Log </li>
                 <li><u>Data</u>: 03/2019 - Até o momento</li>
             </ul>
         </p>
